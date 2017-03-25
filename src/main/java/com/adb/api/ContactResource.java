@@ -17,6 +17,9 @@ import javax.ws.rs.core.Response.Status;
 import com.adb.business.ContactService;
 import com.adb.model.Contact;
 
+/**
+ContactRest API
+*/
 @Path("{userId}")
 public class ContactResource {
 	
